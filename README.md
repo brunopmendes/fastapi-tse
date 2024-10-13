@@ -1,4 +1,4 @@
-# FastAPI Application for TSE Candidate Data
+# Aplicação FastAPI - Dados de Candidatos do TSE
 
 Esta aplicação web desenvolvida com o framework FastAPI permite buscar e processar dados a partir de arquivos CSV, especificamente os dados disponíveis no sistema de dados abertos do Tribunal Superior Eleitoral (TSE). 
 
