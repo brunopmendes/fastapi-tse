@@ -44,8 +44,8 @@ def get_candidates(year: int, uf: str, municipality: str, position: str):
     for _, row in df_grouped.iterrows():
         candidate = Candidate(
             name = row["NM_VOTAVEL"],
-            politicalParty=row["NM_PARTIDO"],
-            electionYear=row["ANO_ELEICAO"],
+            political_party=row["NM_PARTIDO"],
+            election_year=row["ANO_ELEICAO"],
             municipality=row["NM_MUNICIPIO"],
             position=row["DS_CARGO_PERGUNTA"],
             qttVotes=row["QT_VOTOS"],

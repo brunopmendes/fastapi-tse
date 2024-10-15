@@ -58,8 +58,8 @@ Consulta candidatos de acordo com os parâmetros especificados.
 [
   {
     "name": "Nome do Candidato",
-    "politicalParty": "Partido do Candidato",
-    "electionYear": 2024,
+    "political_party": "Partido do Candidato",
+    "election_year": 2024,
     "municipality": "Nome do Município",
     "position": "Cargo",
     "qttVotes": 12345,
